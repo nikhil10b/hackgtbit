@@ -36,7 +36,7 @@ const NAV__LINKS = [
     url: "/create",
   },
   {
-    display: "Stray Info",
+    display: "Provide Leads",
     url: "/contact",
   },
   // {
