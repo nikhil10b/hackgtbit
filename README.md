@@ -1,3 +1,5 @@
+### Whitepaper: https://docs.google.com/document/d/1mCpw7SQ1FIN1BiW9scCuJSZf7w9i3yxKiYV1w9xEczs/edit
+
 # Problem Statement
 As we know, the number of endangered animals is increasing, and the condition of stray animals is getting worse daily. So, we are making a community-driven DAO dApp for the welfare of the animals. 
 Earlier, there was an intermediator, so donated could not deliver the funds to the right place. Through web3, we will decentralize the system, and donated funds can directly get transfered to the deserved place without centralizing the donations.
