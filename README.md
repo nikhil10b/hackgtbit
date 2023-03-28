@@ -1,3 +1,5 @@
+### Website link : https://hackgtbit.vercel.app/home
+### PPT link : https://docs.google.com/presentation/d/1Ohf_DNH1qFSaBCJVxF5SBm5yvnV32osV/edit?usp=drivesdk&ouid=112976386947959511832&rtpof=true&sd=true
 ### Whitepaper: https://docs.google.com/document/d/1mCpw7SQ1FIN1BiW9scCuJSZf7w9i3yxKiYV1w9xEczs/edit
 
 # Problem Statement
