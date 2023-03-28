@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 import { ethers } from "ethers";
+import {TempleWallet} from "@temple-wallet/dapp"
 // import useMetaMask from '../../hooks/useMetaMask';
 // import { Web3Modal } from '@web3modal/react'
 // import { Web3Button, useAccount } from '@web3modal/react'
@@ -59,20 +60,12 @@ const Header = () => {
   const [balance,setBalance] = useState('');
   
 
-  const btnhandler = () => {
+  const btnhandler  = async() => {
 
-    // Asking if metamask is already present or not
-    if (window.ethereum) {
-    // res[0] for fetching a first wallet
-    window.ethereum.on('connect', () => { console.log("connected")});
-  
-    window.ethereum
-      .request({ method: "eth_requestAccounts" })
-      .then((res) => accountChangeHandler(res[0]));
-    } else {
-    alert("install metamask extension!!");
-    }
-  };
+   const wallet= new TempleWallet("My AwesomeDapp");
+   await wallet.connect("ghostnet");
+   const userAddress = wallet.pkh ||(await wallet.getpkh());
+  }
 
   const getbalance = (address) => {
     window.ethereum
